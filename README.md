@@ -1,5 +1,8 @@
-Some content of this repository may be AI generated or modified by internet examples; dont worry, credits will be given here:
+# Web Server Repository
 
-Credits:
-- Me
+Some content in this repository may be AI-generated or adapted from online examples. Rest assured, credits will be provided below:
+
+## Credits
+
+- [takashialpha](#)  
 - ChatGPT
