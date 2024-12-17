@@ -1,129 +1,115 @@
-/* Global Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #ffffff;
+    color: #333333;
     line-height: 1.6;
-    transition: background-color 0.3s, color 0.3s;
 }
 
 .container {
-    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 40px 20px;
 }
 
+/* Header */
 header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 30px;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    color: #2c3e50;
+    font-size: 3rem;
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
 header .highlight {
-    color: #e74c3c;
-}
-
-header .email a {
-    text-decoration: none;
     color: #3498db;
 }
 
-nav {
-    margin-bottom: 2rem;
-    text-align: center;
+/* Sections */
+section {
+    margin-bottom: 50px;
+    padding: 20px;
 }
 
-nav ul {
+h2 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+}
+
+section p, section ul {
+    color: #bbbbbb;
+}
+
+/* Hover effects on section titles */
+h2:hover {
+    transform: translateX(10px);
+}
+
+/* Lists */
+ul {
     list-style-type: none;
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #3498db;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-.about, .what-i-do, .interests {
-    margin-bottom: 3rem;
-}
-
-h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #2c3e50;
-}
-
-ul {
-    list-style-type: none;
-}
-
 ul li {
-    font-size: 1.2rem;
-    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    color: #555555;
+    transition: transform 0.2s ease-in-out;
 }
 
+ul li:hover {
+    transform: translateX(8px);
+}
+
+/* Footer */
 footer {
     text-align: center;
-    font-size: 1.1rem;
-    margin-top: 3rem;
-    color: #7f8c8d;
+    font-size: 1rem;
+    color: #888888;
+    margin-top: 40px;
 }
 
 footer a {
     color: #3498db;
     text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
 }
 
 footer a:hover {
-    text-decoration: underline;
+    color: #2980b9;
 }
 
-/* dark mode */
+/* Dark Mode */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #2c3e50;
-        color: #ecf0f1;
+        background-color: #1e1e1e;
+        color: #f0f0f0;
     }
 
     header h1 {
-        color: #ecf0f1;
+        color: #f0f0f0;
     }
 
     header .highlight {
-        color: #e74c3c;
-    }
-
-    header .email a {
-        color: #3498db;
-    }
-
-    nav ul li a {
         color: #3498db;
     }
 
     footer {
-        color: #bdc3c7;
+        color: #b0b0b0;
     }
 
     footer a {
@@ -131,19 +117,17 @@ footer a:hover {
     }
 }
 
-/* Responsiveness */
+/* Mobile Responsiveness */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2rem;
-    }
-
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
+        font-size: 2.5rem;
     }
 
     .container {
-        width: 95%;
-        padding: 1rem;
+        padding: 20px;
+    }
+
+    .github-panel iframe {
+        height: 300px;
     }
 }
