@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 body {
@@ -17,7 +17,6 @@ body {
     padding: 40px 20px;
 }
 
-/* Header */
 header {
     text-align: center;
     margin-bottom: 30px;
@@ -28,13 +27,13 @@ header h1 {
     color: #222222;
     font-weight: 700;
     margin-bottom: 10px;
+    font-family: 'Franie Text', cursive;
 }
 
 header .highlight {
     color: #3498db;
+    font-family: 'Franie Text', cursive;
 }
-
-/* Sections */
 section {
     margin-bottom: 50px;
     padding: 20px;
@@ -49,15 +48,13 @@ h2 {
 }
 
 section p, section ul {
-    color: #bbbbbb;
+    color: #ffffff;
 }
 
-/* Hover effects on section titles */
 h2:hover {
     transform: translateX(10px);
 }
 
-/* Lists */
 ul {
     list-style-type: none;
     padding: 0;
@@ -66,7 +63,7 @@ ul {
 ul li {
     font-size: 1.1rem;
     margin-bottom: 12px;
-    color: #555555;
+    color: #ffffff;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -74,7 +71,6 @@ ul li:hover {
     transform: translateX(8px);
 }
 
-/* Footer */
 footer {
     text-align: center;
     font-size: 1rem;
@@ -93,7 +89,6 @@ footer a:hover {
     color: #2980b9;
 }
 
-/* Dark Mode */
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #1e1e1e;
@@ -117,7 +112,6 @@ footer a:hover {
     }
 }
 
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.5rem;
@@ -125,9 +119,5 @@ footer a:hover {
 
     .container {
         padding: 20px;
-    }
-
-    .github-panel iframe {
-        height: 300px;
     }
 }

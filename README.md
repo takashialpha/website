@@ -4,5 +4,5 @@ Some content in this repository may be AI-generated or adapted from online examp
 
 ## Credits
 
-- [takashialpha](https://github.com/takashialpha)  
+- [takashialpha](https://takashialpha.xyz)  
 - ChatGPT
