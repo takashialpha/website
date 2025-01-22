@@ -27,12 +27,12 @@ header h1 {
     color: #222222;
     font-weight: 700;
     margin-bottom: 10px;
-    font-family: 'Franie Text', cursive;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 header .highlight {
     color: #3498db;
-    font-family: 'Franie Text', cursive;
+    font-family: 'Fira Sans', sans-serif;
 }
 section {
     margin-bottom: 50px;
