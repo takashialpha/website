@@ -96,6 +96,28 @@
             color: #2980b9;
         }
 
+        .btn {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 12px 25px;
+            font-size: 1rem;
+            font-weight: 700;
+            color: #3498db;
+            background-color: transparent;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: transparent;
+            transform: translateY(-3px);
+        }
+
         @media (prefers-color-scheme: dark) {
             body {
                 background-color: #1e1e1e;
@@ -138,10 +160,9 @@
         <section>
             <h2>Page Not Found</h2>
             <p>Sorry, we couldn't find the page you're looking for. Try going back to the homepage or check the URL.</p>
-            <ul>
-                <li><a href="/">Go back to homepage</a></li>
-            </ul>
+            <a href="/" class="btn">Go back to homepage</a>
         </section>
     </div>
 </body>
 </html>
+
